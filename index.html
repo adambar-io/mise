@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Mise</title>
+<meta name="theme-color" content="#c8553d">
+<meta name="description" content="A free recipe keeper: import from any recipe site, cook mode, grocery list.">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Mise">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main id="app"></main>
+<div id="timers"></div>
+<nav id="tabs">
+  <a href="#/" data-tab="lib">Recipes</a>
+  <a href="#/grocery" data-tab="grocery">Groceries</a>
+  <a href="#/settings" data-tab="settings">Settings</a>
+</nav>
+<div id="toast" role="status"></div>
+<script src="app.js"></script>
+</body>
+</html>
